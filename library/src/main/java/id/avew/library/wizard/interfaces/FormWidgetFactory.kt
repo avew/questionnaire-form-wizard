@@ -6,9 +6,7 @@ import id.avew.library.wizard.expression.JsonExpressionResolver
 import id.avew.library.wizard.i18n.JsonFormBundle
 import org.json.JSONObject
 
-/**
- * Created by vijay on 24-05-2015.
- */
+
 interface FormWidgetFactory {
     @Throws(Exception::class)
     fun getViewsFromJson(

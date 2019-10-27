@@ -2,9 +2,7 @@ package id.avew.library.wizard.validators.edittext;
 
 import com.rengwuxian.materialedittext.validation.METValidator;
 
-/**
- * Created by vijay.rawat01 on 7/21/15.
- */
+
 public class LengthValidator extends METValidator {
 
     private int minLength = 0;

@@ -21,9 +21,6 @@ import id.avew.library.wizard.interfaces.JsonApi;
 import id.avew.library.wizard.utils.JsonFormUtils;
 import id.avew.library.wizard.widget.WidgetFactoryRegistry;
 
-/**
- * Created by vijay on 5/19/15.
- */
 public class JsonFormInteractor {
 
     private static final String TAG = "JsonFormInteractor";

@@ -5,9 +5,7 @@ import android.os.Parcel;
 import id.avew.library.wizard.mvp.ViewState;
 
 
-/**
- * Created by vijay on 5/14/15.
- */
+
 public class JsonFormFragmentViewState extends ViewState implements android.os.Parcelable {
     @Override
     public int describeContents() {

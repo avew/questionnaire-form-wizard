@@ -32,9 +32,7 @@ import static id.avew.library.wizard.utils.FormUtils.WRAP_CONTENT;
 import static id.avew.library.wizard.utils.FormUtils.getLayoutParams;
 import static id.avew.library.wizard.utils.FormUtils.getTextViewWith;
 
-/**
- * Created by vijay on 24-05-2015.
- */
+
 public class LabelFactory implements FormWidgetFactory {
 
     private static final String KEY_FIELD = "key";

@@ -3,12 +3,21 @@
   "step1": {
     "fields": [
       {
+        "key": "labelBackgroundImage",
+        "type": "label",
+        "text": "Apakah anda manusia ?"
+      },
+      {
         "key": "name",
         "type": "edit_text",
         "hint": "${step1.name}",
         "v_min_length": {
           "value": "3",
           "err": "Min length should be at least 3"
+        },
+        "v_required": {
+          "value": "true",
+          "err": "Mohon isi"
         },
         "v_max_length": {
           "value": "10",

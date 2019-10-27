@@ -55,9 +55,7 @@ import id.avew.library.wizard.widget.EditTextFactory;
 import id.avew.library.wizard.widget.ImagePickerFactory;
 import id.avew.library.wizard.widget.SpinnerFactory;
 
-/**
- * Created by vijay on 5/14/15.
- */
+
 public class JsonFormFragmentPresenter extends MvpBasePresenter<JsonFormFragmentView<JsonFormFragmentViewState>> {
     private static final String TAG = "FormFragmentPresenter";
     private static final int RESULT_LOAD_IMG = 1;

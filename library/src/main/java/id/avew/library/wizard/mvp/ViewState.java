@@ -3,9 +3,7 @@ package id.avew.library.wizard.mvp;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created by vijay on 4/25/15.
- */
+
 public class ViewState implements Parcelable {
 
     private boolean mIsSavedInstance;

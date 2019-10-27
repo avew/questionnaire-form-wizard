@@ -5,9 +5,6 @@ import android.view.View
 import android.view.ViewGroup.LayoutParams
 import androidx.appcompat.app.AppCompatActivity
 
-/**
- * Created by vijay on 4/21/15.
- */
 abstract class BaseActivity<VS : ViewState?> :
     AppCompatActivity() {
     // @Icicle

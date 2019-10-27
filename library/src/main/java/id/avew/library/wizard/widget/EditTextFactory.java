@@ -33,9 +33,7 @@ import id.avew.library.wizard.validators.edittext.MaxLengthValidator;
 import id.avew.library.wizard.validators.edittext.MinLengthValidator;
 import id.avew.library.wizard.validators.edittext.RequiredValidator;
 
-/**
- * Created by vijay on 24-05-2015.
- */
+
 public class EditTextFactory implements FormWidgetFactory {
 
     @Override

@@ -21,9 +21,7 @@ import id.avew.library.wizard.interfaces.CommonListener;
 import id.avew.library.wizard.mvp.MvpView;
 import id.avew.library.wizard.mvp.ViewState;
 
-/**
- * Created by vijay on 5/14/15.
- */
+
 public interface JsonFormFragmentView<VS extends ViewState> extends MvpView {
     Bundle getArguments();
 

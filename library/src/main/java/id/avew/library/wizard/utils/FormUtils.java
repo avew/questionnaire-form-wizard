@@ -9,9 +9,7 @@ import android.widget.TextView;
 import com.rey.material.util.ViewUtil;
 import id.avew.library.wizard.R;
 
-/**
- * Created by vijay on 24-05-2015.
- */
+
 public class FormUtils {
     public static final String FONT_BOLD_PATH = "font/Roboto-Bold.ttf";
     public static final String FONT_REGULAR_PATH = "font/Roboto-Regular.ttf";

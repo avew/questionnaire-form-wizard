@@ -11,9 +11,7 @@ import android.view.WindowManager;
 import java.io.File;
 import java.io.FileOutputStream;
 
-/**
- * Created by vijay.rawat01 on 7/29/15.
- */
+
 public class ImageUtils {
 
     private static final String TAG = "ImageUtils";

@@ -6,9 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-/**
- * Created by vijay on 4/19/15.
- */
+
 abstract class BaseFragment<VS : ViewState?> :
     Fragment() {
     // @Icicle

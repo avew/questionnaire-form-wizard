@@ -1,8 +1,6 @@
 package id.avew.library.wizard.utils;
 
-/**
- * Created by vijay.rawat01 on 7/21/15.
- */
+
 public class ValidationStatus {
     private boolean isValid;
     private String errorMessage;

@@ -8,9 +8,7 @@ import com.yarolegovich.discretescrollview.DiscreteScrollView.OnItemChangedListe
 import com.yarolegovich.discretescrollview.DiscreteScrollView.ScrollStateChangeListener
 import id.avew.library.wizard.utils.CarouselAdapter
 
-/**
- * Created by vijay on 5/17/15.
- */
+
 interface CommonListener : OnClickListener,
     OnCheckedChangeListener,
     OnItemSelectedListener,

@@ -27,9 +27,7 @@ import id.avew.library.wizard.interfaces.FormWidgetFactory;
 import id.avew.library.wizard.interfaces.JsonApi;
 import id.avew.library.wizard.utils.JsonFormUtils;
 
-/**
- * Created by vijay on 24-05-2015.
- */
+
 public class ExtendedLabelFactory implements FormWidgetFactory {
 
     private static final String TEXT_FIELD = "text";
