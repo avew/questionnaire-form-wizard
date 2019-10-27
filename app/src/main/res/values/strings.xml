@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Quisioner</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="readonly">Readonly</string>
+</resources>

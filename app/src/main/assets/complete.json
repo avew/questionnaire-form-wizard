@@ -1,0 +1,66 @@
+{
+  "count": "2",
+  "step1": {
+    "fields": [
+      {
+        "key": "name",
+        "type": "edit_text",
+        "hint": "${step1.name}",
+        "v_min_length": {
+          "value": "3",
+          "err": "Min length should be at least 3"
+        },
+        "v_max_length": {
+          "value": "10",
+          "err": "Max length can be at most 10."
+        },
+        "value": "name_val"
+      }
+    ],
+    "title": "Step 1 of 2",
+    "next": "step2"
+  },
+  "step2": {
+    "fields": [
+      {
+        "key": "name2",
+        "type": "edit_text",
+        "hint": "${step2.name}",
+        "value": "name2_val"
+      },
+      {
+        "key": "checkData",
+        "type": "check_box",
+        "label": "Select multiple preferences",
+        "options": [
+          {
+            "key": "awesomeness",
+            "text": "Are you willing for some awesomeness?",
+            "value": "true"
+          },
+          {
+            "key": "newsletter",
+            "text": "Do you really want to opt out from my newsletter?",
+            "value": "true"
+          },
+          {
+            "key": "thirdval",
+            "text": "Do you really like third value?",
+            "value": "false"
+          }
+        ]
+      }
+    ],
+    "title": "Step 2 of 2"
+  },
+  "bundle": {
+    "es": {
+      "step1.name": "Introduzca su nombre",
+      "step1.radioData": "Seleccione un elemento"
+    },
+    "en": {
+      "step1.name": "Enter Your Name",
+      "step1.radioData": "Select one item from below"
+    }
+  }
+}
